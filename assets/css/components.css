@@ -1,0 +1,37 @@
+/* card component */
+.card-matter {
+    border-radius: 10px;
+    border: 0;
+    box-shadow:  0 .125rem .25rem rgba(0,0,0,.075);
+}
+/* Buttons */
+.btn-primary-blue {
+    background-color: var(--primary-blue-light);
+}
+.btn-primary-blue:hover {
+    color: var(--primary-blue-dark);
+}
+/* Notifications */
+.notification {
+    position: fixed;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: var(--bg-info); /* default bg */
+    text-align: center;
+    transition: top 400ms;
+}
+.notification.visible {
+    top: 0;
+}
+.notification.info {
+    background-color: var(--bg-info);
+    color: var(--bg-info);
+}
+.notification.danger {
+    background-color: var(--bg-danger);
+}
+.notification.success {
+    background-color: var(--bg-success);
+}

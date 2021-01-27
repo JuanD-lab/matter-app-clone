@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+    <link rel="stylesheet" href="../assets/css/overrides.css">
+</head>
+<script src="./assets/js/middlewares/authenticated.js"></script>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="bg-primary rounded py-5 mb-3 shadow">
+                    <h2 class="text-center text-white">Personas que te han dado feedback</h2>
+                </div>
+                <div id="feed">
+                    <!-- Aquí van los datos -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-matter">
+                    <div class="card-body">
+                        <ul class="list-unstyled m-0">
+                            <li>
+                                <a href="/index.html">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="/profile.html">Perfil</a>
+                            </li>
+                            <li>
+                                <a href="/evaluate-skills.html">Evaluar skills</a>
+                            </li>
+                            <li>
+                                <a href="/feedback.html">Feedback recibido</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./assets/js/classes/Feed.js"></script>
+</body>
+</html>
