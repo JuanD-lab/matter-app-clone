@@ -2,7 +2,6 @@ import Auth from './classes/Auth.js'
 import Request from './classes/Request.js'
 import Notification from './classes/Notification.js'
 import Profile from './classes/Profile.js'
-import Feed from './classes/Feed.js'
 
 // Login
 const loginForm = document.getElementById('login-form');
